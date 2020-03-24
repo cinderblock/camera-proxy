@@ -1,0 +1,16 @@
+{
+  "name": "camera-proxy",
+  "version": "0.0.0",
+  "description": "A simple backend that serves an mjpeg stream efficiently",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Cameron Tacklind <cameron@tacklind.com>",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-to-koa": "^2.0.0",
+    "mjpeg-proxy": "git+https://github.com/cinderblock/node-mjpeg-proxy.git"
+  }
+}
