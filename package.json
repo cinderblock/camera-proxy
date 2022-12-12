@@ -9,7 +9,7 @@
   "author": "Cameron Tacklind <cameron@tacklind.com>",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.17.1",
+    "express": "^4.17.3",
     "express-to-koa": "^2.0.0",
     "mjpeg-proxy": "git+https://github.com/cinderblock/node-mjpeg-proxy.git"
   }
